@@ -1,4 +1,4 @@
-# Implementation of deep learning framework -- Unet, using Keras
+# Implementation of deep learning network Unet for Cerebral veins segmentation and Cerebral aneurysm classification/segmentation.
 
 The architecture was inspired by [U-Net: Convolutional Networks for Biomedical Image Segmentation](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/).
 
@@ -42,5 +42,6 @@ Loss function for the training is dice loss function since the MRI scans have cl
 Segmentation results for cerebral veins, aneurysm segmentation is done in a different repo.\
 
 
-
+![](https://github.com/ysaatci/unetSegmentation/blob/main/ezgif.com-optimize.gif)
+![](https://github.com/ysaatci/unetSegmentation/blob/main/ezgif.com-speed.gif)
 
