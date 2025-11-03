@@ -8,9 +8,7 @@ The architecture was inspired by [U-Net: Convolutional Networks for Biomedical I
 
 ### Data
 
-The original dataset is from [isbi challenge](http://brainiac2.mit.edu/isbi_challenge/), and I've downloaded it and done the pre-processing.
-
-You can find it in folder data/membrane.
+The original dataset is gathered with the collabration of https://www.cddft.nhs.uk/services/neurology, it includes MRI scans of patients with cerebral aneurysms located in different parts of the brain.
 
 ### Data augmentation
 
