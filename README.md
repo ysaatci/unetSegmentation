@@ -12,14 +12,6 @@ The original dataset is gathered with the collabration of https://www.cddft.nhs.
 
 
 
-### Model
-
-
-This deep neural network is implemented with Keras functional API, which makes it extremely easy to experiment with different interesting architectures.
-
-Output from the network is a 512*512 which represents mask that should be learned. Sigmoid activation function
-makes sure that mask pixels are in \[0, 1\] range.
-
 ### Training
 
 The model is trained for roughly 100 epochs on a server with around 40~ Nvidia 2080 GPU's.
