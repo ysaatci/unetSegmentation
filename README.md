@@ -10,11 +10,6 @@ The architecture was inspired by [U-Net: Convolutional Networks for Biomedical I
 
 The original dataset is gathered with the collabration of https://www.cddft.nhs.uk/services/neurology, it includes MRI scans of patients with cerebral aneurysms located in different parts of the brain.
 
-### Data augmentation
-
-The data for training contains 30 512*512 images, which are far not enough to feed a deep learning neural network. I use a module called ImageDataGenerator in keras.preprocessing.image to do data augmentation.
-
-See dataPrepare.ipynb and data.py for detail.
 
 
 ### Model
